@@ -17,24 +17,57 @@ const About = ({ data }) => {
       <SEO title="About" />
       <HeaderBack />
       <Layout>
-        <HeadingXL>About</HeadingXL>
-        <Image fluid={data.RandomPhoto.childImageSharp.fluid} />
+        <HeadingXL>Shimon Mazor</HeadingXL>
         <TextBody>
-          Building mr concerns servants in he outlived am breeding. He so lain
-          good miss when sell some at if. Told hand so an rich gave next. How
-          doubt yet again see son smart. While mirth large of on front. Ye he
-          greater related adapted proceed entered an. Through it examine express
-          promise no. Past add size game cold girl off how old.
+            Hi there, I am a{' '}
+            <a
+              data-tooltip="Linkedin"
+              href="https://www.linkedin.com/in/shimonmazor/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <u>Software Engineer</u>
+            </a>{' '}based in NYC. 
+            <br />
+            <br />
+            I recently made {' '}
+            <a
+              data-tooltip="help business during COVID-19"
+              href="https://www.mindfulstimulus.com/?ref=blog"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <u>Mindful Stimulus</u>
+            </a>{' '}
+            a COVID-19 🦠 response to help businesses struggling during the pandemic. 
+            This site was made entirely without code on {' '}
+            <a
+              data-tooltip="bubble.io"
+              href="https://bubble.io"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <u>bubble</u>
+            </a>.{' '}
           <br />
           <br />
-          Bringing so sociable felicity supplied mr. September suspicion far him
-          two acuteness perfectly. Covered as an examine so regular of. Ye
-          astonished friendship remarkably no. Window admire matter praise you
-          bed whence. Delivered ye sportsmen zealously arranging frankness
-          estimable as. Nay any article enabled musical shyness yet sixteen yet
-          blushes. Entire its the did figure wonder off.
+            In my free time I enjoy movement 🤸 playing the guitar 🎸 and learning spanish 🇪🇸, while also collecting notes in {' '}
+              <a 
+                href="https://roamresearch.com/"
+              >
+                <u>Roam</u>{' '}
+              </a> and {' '}
+              <a 
+                href="https://notion.so"
+              >
+                <u>Notion</u> 
+              </a> on books 📚 I read.
+          <br />
+          <br />
+          Currently available for hire. Want to work together? You know what to do..
+          
         </TextBody>
-        <Button href="mailto:your&#64;email.com">Get in touch</Button>
+        <Button href="mailto:shimon&#64;mazor.dev?subject=Hi&body=👋">Get in touch</Button>
       </Layout>
     </>
   );
