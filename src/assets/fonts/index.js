@@ -1,4 +1,4 @@
-import IBMPlexMono400 from './IBMPlexMono400.woff2';
-import IBMPlexMono700 from './IBMPlexMono700.woff2';
+import OpenSansRegular from './OpenSans-Regular.ttf';
+import SalsaRegular from './Salsa-Regular.ttf';
 
-export { IBMPlexMono400, IBMPlexMono700 };
+export { SalsaRegular, OpenSansRegular };

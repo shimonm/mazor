@@ -17,24 +17,24 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-display: block;
-    font-family: "IBMPlexMono";
+    font-family: "OpenSansRegular";
     font-style: normal;
     font-weight: 400;
-    src: url('${font.IBMPlexMono400}') format("woff2");
+    src: url('${font.OpenSansRegular}') format("ttf");
   }
 
   @font-face {
     font-display: block;
-    font-family: "IBMPlexMono";
+    font-family: "SalsaRegular";
     font-style: normal;
     font-weight: 700;
-    src: url('${font.IBMPlexMono700}') format("woff2");
+    src: url('${font.SalsaRegular}') format("ttf");
   }
 
   body {
     background-color: var(--light-color);
     color: var(--dark-color);
-    font-family: 'IBMPlexMono', sans-serif;
+    font-family: 'OpenSansRegular';
     font-size: 19px;
     font-weight: 400;
     height: 100%;

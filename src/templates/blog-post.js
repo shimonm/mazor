@@ -19,7 +19,7 @@ const BlogPost = ({ data }) => {
       <HeaderBack />
       <Layout>
         <HeadingXL>{post.frontmatter.title}</HeadingXL>
-        <TextDate>{post.frontmatter.date}</TextDate>
+        <TextDate>Shimon Mazor, {post.frontmatter.date}</TextDate>
         <TextBody dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
     </>
